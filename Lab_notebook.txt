@@ -1,0 +1,5 @@
+day 1 2021_12_06
+This weekend I have been looking over what I did this spring before realizing I had to much to do to finish this
+project. I also repeated what seemed to be most useful for solving this project. After having gone through the material
+again, I realize that my approach I had the last time was uneccesarily hard. Thus, I have created a new repository on
+github for this final version.
