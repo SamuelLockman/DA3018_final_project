@@ -1,5 +1,19 @@
-day 1 2021_12_06
+day 1: 2021_12_06
 This weekend I have been looking over what I did this spring before realizing I had to much to do to finish this
 project. I also repeated what seemed to be most useful for solving this project. After having gone through the material
 again, I realize that my approach I had the last time was uneccesarily hard. Thus, I have created a new repository on
 github for this final version.
+
+day 2: 2021_12_10
+Today I did two awk scripts, "remove" and "counter". "remove" removes all
+contigs that are contained in some other contig, so no two lines will be
+identical in the datafile. As I did now is very memory intensive, so if I
+find a better way to do it, I will create a new script. Now it works by
+going over the data tiwce, first to check which vertices are doublets;
+which it does by storing them in a hash table. Then a second time to
+remove the doublets. The second script "counter" simlpy counts the number of contigs in the
+file. 
+
+By removing the doublets, the number of contigs reduced from 11393435
+to 2358788. The first removal is stored in the file "remove1_overlaps.m4"
+
