@@ -1,0 +1,18 @@
+#awk script to remove unnecessary contigs.
+
+BEGIN {
+	FS = "\t"
+	OFS = FS
+}
+
+NR == FNR && $7==$8 && $6==0 {
+	discarded[$1] = 1
+}
+
+NR == FNR && $10==0 && $11 == $12 {
+	discarded[$2]=1
+}
+
+NR != FNR && !discarded[$1] && !discarded[$2] {
+	print $1, $2
+}
