@@ -1,0 +1,15 @@
+#awk script to count the number of contigs
+
+!v[$1] {
+	v[$1] = 1
+	n++
+}
+
+!v[$2] {
+v[$2] = 1
+	n++
+}
+
+END {
+	print n
+}
