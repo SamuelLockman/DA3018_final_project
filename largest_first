@@ -1,0 +1,13 @@
+# awk script to put the vertices in an order, with the largest first
+
+BEGIN {
+	FS = "\t"
+	OFS = FS
+}
+
+$1 < $2 {
+	small = $1
+	$1 = $2
+	$2 = small
+}
+{ print }
