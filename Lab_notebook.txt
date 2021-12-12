@@ -17,3 +17,8 @@ file.
 By removing the doublets, the number of contigs reduced from 11393435
 to 2358788. The first removal is stored in the file "remove1_overlaps.m4"
 
+day 3: 2021_12_11
+In the problem description, we got that the line with contigs X and Y is the same as the line with contigs Y and X.
+Thus, I did an awk script to place the "largest" contig first. Then I ran "remove" on it again to remove all the
+doublets in this manner. After doing this I ran counter again and apparently, there were no such doublets since it was still
+2358788 lines in the file.
