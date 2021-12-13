@@ -22,3 +22,8 @@ In the problem description, we got that the line with contigs X and Y is the sam
 Thus, I did an awk script to place the "largest" contig first. Then I ran "remove" on it again to remove all the
 doublets in this manner. After doing this I ran counter again and apparently, there were no such doublets since it was still
 2358788 lines in the file.
+
+day 4: 2021_12_13
+Today I created the awk script "to_integers" that maps each contig to an integer.
+I should have done this earlier because I was so focused on trying to shorten 
+the file.
