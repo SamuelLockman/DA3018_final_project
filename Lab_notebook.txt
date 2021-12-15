@@ -25,5 +25,11 @@ doublets in this manner. After doing this I ran counter again and apparently, th
 
 day 4: 2021_12_13
 Today I created the awk script "to_integers" that maps each contig to an integer.
-I should have done this earlier because I was so focused on trying to shorten 
-the file.
+I should have done this earlier but I was so focused on trying to shorten 
+the file that I missed it.
+
+day 5: 2021_12_15
+Today I tried reading up on the Java side of the course, since I reckon it would probably be way easier
+to solve the computational problemns there. I started doing something in java, but I spent most of my time going
+over my old labs. I think for tomorrow what I need to do is to represent the graph in an adjacency list 
+and maybe either use DFS or BFS to determine the components and sizes.
